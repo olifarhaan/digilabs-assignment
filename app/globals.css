@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .gradient-button {
+  background: none;
+  color: #fff;
+  overflow: hidden;
+  font-weight: bold;
+
+  background-image: linear-gradient(
+    to right,
+    black 0%,
+    #9d0d3d 30%,
+    #c77d2c 50%,
+    black 100%
+  );
+  border: solid 1.5px;
+  border-radius: 4px !important;
+  border-image: linear-gradient(
+    to right,
+    transparent 0%,
+    #9d0d3d 30%,
+    #c6802c 100%
+  );
+
+  border-image-slice: 1;
+} */
+
+
+.gradient-button {
+  background: none;
+  color: #fff;
+  overflow: hidden;
+  font-weight: bold;
+
+  background-image: linear-gradient(to right, #9d0d3d4a 0%, #9d0d3d 30%, #c77d2c 50%, black 100%);
+}
+
+.gradient-border {
+  background-image: linear-gradient(to right, transparent 0%, #9d0d3d 30%, #c6802c 100%);
+}
+
+.Toastify__toast-body {
+  color: #ffffff;
+  font-size: 14px !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+
+
+body {
+  background-color: #000000;
+  margin: 10px;
+}
